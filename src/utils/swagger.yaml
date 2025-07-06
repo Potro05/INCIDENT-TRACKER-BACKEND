@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: Incident Tracker API
+  version: 1.0.0
+  description: Test de Swagger
+
+servers:
+  - url: http://localhost:3000
+
+paths:
+  /api/incidents:
+    get:
+      summary: Récupère tous les incidents
+      responses:
+        '200':
+          description: OK
+  
